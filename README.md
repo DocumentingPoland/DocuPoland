@@ -13,11 +13,11 @@ Because of incredibly large number of those incidents, and its constant growth i
 to keep track of them all therefore it is difficult to recognise the scale of governmental overreach. 
 
 
-This repository is the beginning of a "mapping project" web-app. 
+This repository is the beginning of a "mapping project" (online web-application). 
 
-Once completed, citizens and everyone affected (and witnesses)
-by the governmental overreach will be able to submit (via online web-app) information about those cases
-by providing relevant details/description of the incidents, dates, location of incident/s, supporting materials, video,
+Once completed, citizens, witnesses and anyone affected
+by the governmental overreach will be able to submit information about those incidents
+by providing relevant details/descriptions of the incidents, dates, location/s, supporting materials, video,
 images, and whenever there was a court ruling afterwards.
 
 This data will then be verified by independent journalists 
