@@ -24,7 +24,7 @@ This data will then be verified by independent journalists
 and will then be placed on an interactive/visual map of 
 Poland for public access.
 
-This is to enable everyone to visualize the scale of all of those incidents, that have happened, and are happening across Poland.
+This is to enable visualisation of the overall scale of those incidents, that have happened, and are happening across Poland.
 
 
 
