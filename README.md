@@ -33,6 +33,7 @@ The web app is being developed using .net core (5.0.3) API, and Angular (typescr
 
 If you beleive in the ideas behind this project and feel like you could couribute
 (especially on UI/front end side) please get in touch: documentingpoland@protonmail.com
+
 ---- Developers----
 
 ![Image](https://github.com/DocumentingPoland/DocuPoland/blob/main/img/documantingPoland-logo-1.png)
