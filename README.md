@@ -29,6 +29,7 @@ This is to enable everyone to visualize the scale of all of those incidents, tha
 
 
 ---- Developers----
+
 The web app is being developed using .net core (5.0.3) API, and Angular (typescript) front end. 
 
 If you beleive in the ideas behind this project and feel like you could couribute
