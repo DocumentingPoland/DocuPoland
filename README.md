@@ -3,7 +3,7 @@
 
 
 The situation in Poland continues to deteriorate. Polish government attacks on all aspects of democracy,
-civil liberties and the rule of law continues to escalate.
+civil liberties, human rights and the rule of law continues to escalate.
 
 The numbers of independently confirmed and still to be confirmed cases of government overreach
 is continually increasing across all parts of Poland. 
