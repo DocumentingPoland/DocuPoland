@@ -2,7 +2,7 @@ using System;
 
 namespace API.Entities
 {
-    public class submission
+    public class Submission
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -12,6 +12,9 @@ namespace API.Entities
         public string City { get; set; }
 
         public string State { get; set; }
+
+        public bool Confirmed { get; set; }
+
 
     }
 }
