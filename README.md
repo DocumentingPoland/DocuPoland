@@ -37,4 +37,9 @@ If you believe in the ideas behind this project and feel like you could contribu
 
 ---- Developers----
 
+Human Rights Watch [statement](https://www.hrw.org/europe/central-asia/poland): 
+
+![Image-HRW](https://raw.githubusercontent.com/DocumentingPoland/DocuPoland/main/img/hrw_poland.png)
+
+
 ![Image](https://github.com/DocumentingPoland/DocuPoland/blob/main/img/documantingPoland-logo-1.png)
