@@ -1,0 +1,35 @@
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Documenting Poland</a>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dodaj</a>
+          </li>
+        </ul>
+        <form #loginForm="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()" autocomplete="off">
+          <input
+            name="email"
+            [(ngModel)]="model.email"
+            class="form-control mr-sm-2" 
+            type="search" 
+            placeholder="Email">
+          <input
+            name="password"
+            [(ngModel)]="model.password"
+            class="form-control mr-sm-2" 
+            type="password" 
+            placeholder="Password">
+          <button class="btn btn-outline-success" type="submit">Zaloguj</button>
+        </form>
+      </div>
+    </div>
+  </nav>

@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   }
 
   getSubmissions() {
-    this.http.get("https://localhost:5001/api/submissions").subscribe(response => {
+    this.http.get("http://localhost:5000/api/submissions").subscribe(response => {
       this.submission = response;
     }, error => {
       console.log(error);
