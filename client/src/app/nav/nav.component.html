@@ -16,10 +16,11 @@
           </li>
         </ul>
 
-        <div class="dropdown" *ngIf="loggedIn">
-          <a class="dropdown-toggle text-light">Witaj User</a>
-          <div class="dropdown-menu">
+        <div class="dropdown" *ngIf="loggedIn" dropdown>
+          <a class="dropdown-toggle text-light" dropdownToggle>Witaj User</a>
+          <div class="dropdown-menu" *dropdownMenu>
             <a class="dropdown-item">Kolejka Wpisów</a>
+            <div class="dropdown-divider"></div>
             <a class="dropdown-item" (click)="logout()">Wyloguj</a>
           </div>
         </div>
