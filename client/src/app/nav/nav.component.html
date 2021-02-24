@@ -5,7 +5,7 @@
 
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item" *ngIf="loggedIn">
+          <li class="nav-item" *ngIf="accountService.currentUser$ | async">
             <a class="nav-link" href="#">Wpisy</a>
           </li>
           <li class="nav-item">
@@ -16,7 +16,7 @@
           </li>
         </ul>
 
-        <div class="dropdown" *ngIf="loggedIn" dropdown>
+        <div class="dropdown" *ngIf="accountService.currentUser$ | async" dropdown>
           <a class="dropdown-toggle text-light" dropdownToggle>Witaj User</a>
           <div class="dropdown-menu" *dropdownMenu>
             <a class="dropdown-item">Kolejka Wpisów</a>
@@ -27,7 +27,7 @@
 
 
 
-        <form *ngIf="!loggedIn" #loginForm="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()" autocomplete="off" >
+        <form *ngIf="(accountService.currentUser$ | async) === null" #loginForm="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()" autocomplete="off" >
           <input
             name="email"
             [(ngModel)]="model.email"
