@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { error } from 'protractor';
 import { User } from './_models/user';
 import { AccountService } from './_services/account.service';
 
@@ -11,12 +12,14 @@ import { AccountService } from './_services/account.service';
 export class AppComponent implements OnInit {
   title = 'Docu Poland';
   submission: any;
+  user: any;
 
   constructor(private http: HttpClient, private accountService: AccountService) {}
 
   ngOnInit() {
-    this.getSubmissions();
     this.setCurrentUser();
+    this.getSubmissions();
+
   }
 
   getSubmissions() {
@@ -26,6 +29,8 @@ export class AppComponent implements OnInit {
       console.log(error);
     })
   }
+
+
 
 
   setCurrentUser() {

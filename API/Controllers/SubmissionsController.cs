@@ -18,14 +18,14 @@ namespace API.Controllers
             _context = context;
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpGet]
         public async Task<ActionResult<List<Submission>>> GetSubmissions() 
         {
             return await _context.Submissions.ToListAsync();
 
         }
-        [Authorize]
+        //[Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<Submission>>  GetSubmission(int id) 
         {
