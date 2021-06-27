@@ -38,6 +38,7 @@ If you believe in the ideas behind this project and feel like you could contribu
 ---- Developers----
 
 
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: OpenPGP.js v4.10.10
 Comment: https://openpgpjs.org
@@ -95,6 +96,8 @@ LZI5hjdkinR6FOZyP+0O22wl2vdLD06kg1x121BT6OrgDIESz+dU8fLENygD
 3S4AwywtJDDr0OGiukw8zn4INjr6Q+QIoNoCUB9GGtdQo/99
 =nJo7
 -----END PGP PUBLIC KEY BLOCK-----
+
+```
 
 
 
